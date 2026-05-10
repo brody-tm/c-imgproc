@@ -2,7 +2,8 @@ Read [ppm files](https://netpbm.sourceforge.net/doc/ppm.html) from `stdin` and a
 - `invert`
 - `greyscale`
 - `blackandwhite`
+- `bluish`
 
 ```
-cat input.ppm | ./main greyscale output
+./main [input filename] [effect] [output filename] [output encoding]
 ```
