@@ -136,7 +136,7 @@ int main(int argc, char *argv[]) {
 
                 avg = (r+g+b)/3;
 
-                if (avg > 130) {avg = 255;} else {avg = 0;}
+                if (avg > 130) {avg = 255;} else {avg = 30;}
 
                 pixels[i] = avg;
                 pixels[i+1] = avg;
@@ -149,7 +149,7 @@ int main(int argc, char *argv[]) {
         case BLUEISH:
             for (int i = 0; i < num_pixels * 3; i += 3) {
                 pixels[i] = 0;
-                pixels[i+1] = 160;
+                pixels[i+1] = 90;
                 // pixels[i+2] = 0;
             }
             break;
